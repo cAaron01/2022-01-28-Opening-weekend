@@ -18,6 +18,10 @@ namespace _2022_01_28_Opening_weekend
                 filmek.Add(new Film(sor));
             }
 
+            //3. feladat
+            
+            Console.WriteLine($"Filmek száma az állományban: {filmek.Count} db");
+
             Console.ReadKey();
         }
     }
